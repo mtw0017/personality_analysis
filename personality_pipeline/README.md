@@ -2,7 +2,7 @@
                   Personality Prediction Pipeline
 ============================================================
 
-This project uses behavioral data to predict whether someone is an Introvert or Extrovert using machine learning.
+This project utilizes behavioral data to predict whether an individual is an Introvert or an Extrovert using machine learning.
 
 ------------------------------------------------------------
 PROJECT STRUCTURE
@@ -16,7 +16,7 @@ personality_pipeline/
 │   ├── __init__.py                    # Marks pipeline folder as a package
 │   ├── load_data.py                   # Loads raw dataset
 │   ├── preprocess.py                  # Cleans and encodes data
-│   ├── train_model.py                 # Trains and saves RandomForest model
+│   ├── train_model.py                 # Trains and saves the RandomForest model
 │   └── predict.py                     # Makes predictions from input data
 ├── main.py                            # Runs full pipeline & tests predictions
 └── README.txt                         # This file
@@ -24,7 +24,7 @@ personality_pipeline/
 ------------------------------------------------------------
 HOW TO RUN
 ------------------------------------------------------------
-1. Make sure you have Python 3.7+ installed.
+1. Ensure you have Python 3.7 or later installed.
 
 2. Install dependencies:
    pip install pandas scikit-learn joblib
